@@ -1,0 +1,72 @@
+.myInfo {
+  width: 80%;
+  min-width: 1000px;
+  max-width: 2000px;
+  margin-left: 12vw;
+  border: 1px solid #EDEDED;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: #FAFAFA;
+}
+.myInfo-certificate {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 25px;
+  border-bottom: 1px solid #EDEDED; 
+}
+.myInfo-certificate span:first-child {
+  margin-bottom: 10px;
+  font-size: x-large;
+  font-weight: 500;
+}
+.myInfo-certificate span:last-child {
+ color: #969680; 
+}
+.myInfo-certificate div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.myInfo-certificate i {
+  font-size: 30px;
+}
+.myInfo-subscribe {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.myInfo-subscribe i {
+  font-size: 15px;
+  color: var(--gray);
+}
+.moreStuff {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items:  center;
+  margin: 5vh 6vw;
+}
+.moreStuff-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.moreStuff-row div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.moreStuff-row i:not(:last-child) {
+  margin-right: 20vw;
+}
+.moreStuff-row i {
+  font-size: 30px;
+}
+
+.footer {
+  margin-top: 5vh;
+}

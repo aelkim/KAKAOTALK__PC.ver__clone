@@ -1,0 +1,11 @@
+.chevron-right {
+  width: 18px;
+  height: 18px;
+  font-size: 7px;
+  color: var(--gray);
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

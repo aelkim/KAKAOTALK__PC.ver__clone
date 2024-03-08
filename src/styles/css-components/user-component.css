@@ -1,0 +1,171 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: var(--space-left);
+  margin-right: 33px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.user-component__column img {
+  border-radius: 20px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.user-component__column {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.user-component__column:first-child {
+  justify-content: flex-start;
+}
+
+.user-component__column:last-child {
+  justify-content: flex-end;
+}
+
+.user-component__column:first-child span {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.user-component__column--name {
+  font-weight: 1000;
+  font-size: 14px;
+  color: black;
+}
+
+.user-component__column--count {
+  font-weight: 1000;
+  font-size: 14px;
+  color: var(--gray);
+
+}
+
+.user-component__state-message {
+  height: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 11px;
+  font-size: 12px;
+  color: black;
+  font-weight: 400;
+}
+
+.user-component__column:last-child i {
+  padding-left: 2px;
+}
+
+/*user-component__header*/
+.user-component__header {
+  height: 100%;
+  margin-left: var(--space-left);
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+/*user-channel*/
+.user-component__header .user-component {
+  margin-left: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+
+.user-component__header span,
+.user-component__header i {
+  color: var(--gray);
+  font-size: 12px;
+}
+
+/*channel*/
+
+main {
+
+  height: 100%;
+  margin-left: var(--space-left);
+  padding-bottom: 15px;
+}
+
+main .user-component {
+  margin-left: 0;
+  padding-bottom: 15px;
+  border-bottom: 0;
+}
+
+main .user-component__header {
+
+  height: 100%;
+  margin-left: 0;
+  padding-bottom: 20px;
+  padding-top: var(--space-top);
+}
+
+
+
+
+
+
+
+
+.user-component__channel {
+  width: inherit;
+  margin-left: var(--space-left);
+}
+
+.user-component__channel .channel__row {
+  padding-top: 0;
+}
+
+.user-component__channel .user-component {
+  margin-left: 0;
+  width: inherit;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 0;
+}
+
+.channel__row {
+  padding-top: 15px;
+}
+
+.channel__row div {
+  width: inherit;
+}
+
+.channel__row .user-component__column div {
+  width: inherit;
+  border: 0;
+  color: inherit;
+}
+
+.channel__row .user-component__column:last-child i {
+  color: var(--gray);
+}
+
+/*users*/
+/*users*/
+/*users*/
+/*users*/
+/*users*/
+/*users*/
+/*users*/
+
+main .user-component__channel .user-component {
+  border: 0;
+}
+
+.channel__row__user {
+  padding-top: 0;
+}
